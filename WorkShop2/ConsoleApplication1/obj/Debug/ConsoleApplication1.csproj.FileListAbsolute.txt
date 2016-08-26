@@ -5,3 +5,10 @@ c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplica
 c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
 c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\e0046479\Source\Repos\OOP\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\e0046479\Source\Repos\OOP\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\e0046479\Source\Repos\OOP\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\e0046479\Source\Repos\OOP\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\e0046479\Source\Repos\OOP\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\e0046479\Source\Repos\OOP\WorkShop2\ConsoleApplication1\bin\Debug\ISS.RV.LIB.dll
+C:\Users\e0046479\Source\Repos\OOP\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

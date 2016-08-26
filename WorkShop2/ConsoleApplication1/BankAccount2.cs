@@ -149,9 +149,9 @@ namespace ConsoleApplication1
 
         // Method
 
-        public string GetAge()
+        public int GetAge()
         {
-            return this.passportNumber.Substring(0,2);
+            return DateTime.Now.Year - dateOfBirth.Year;
         }
     }
 
@@ -163,6 +163,8 @@ namespace ConsoleApplication1
             Customer z = new Customer("Kim Lee Keng", "2, Rich View", "XXX9F", new DateTime(1993, 4, 25));
             BankAccount2 a = new BankAccount2("001-001-001", y, 2000);
             BankAccount2 b = new BankAccount2("001-001-002", z, 5000);
+            Console.WriteLine("Age: " + y.GetAge());
+            Console.WriteLine("Age: " + z.GetAge());
             Console.WriteLine(a.Show());
             Console.WriteLine(b.Show());
             a.Deposit(100);
