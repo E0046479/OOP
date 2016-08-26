@@ -9,7 +9,8 @@ namespace ConsoleApplication1
     class BankAccount2
     {
          // Attribute
-        string accountNumber, accountHolder;
+        string accountNumber;
+        Customer accountHolder;
         double balance;
 
         // Constructor
@@ -20,17 +21,10 @@ namespace ConsoleApplication1
             balance = 0;
         }
 
-        public BankAccount2(string accountNumber, string accountHolder, double balance)
+        public BankAccount2(string accountNumber, Customer accountHolder, double balance)
         {
             this.accountNumber = accountNumber;
             this.accountHolder = accountHolder;
-            this.balance = balance;
-        }
-
-        public BankAccount2(string accountNumber, Customer customer, double balance)
-        {
-            this.accountNumber = accountNumber;
-            this.customer = customer;
             this.balance = balance;
         }
 
@@ -40,7 +34,7 @@ namespace ConsoleApplication1
             return accountNumber;
         }
 
-        public string GetAccountHolder()
+        public Customer GetAccountHolder()
         {
             return accountHolder;
         }
@@ -55,7 +49,7 @@ namespace ConsoleApplication1
             this.accountNumber = accountNumber;
         }
 
-        public void SetAccountHolder(string accountHolder)
+        public void SetAccountHolder(Customer accountHolder)
         {
             this.accountHolder = accountHolder;
         }
@@ -105,7 +99,7 @@ namespace ConsoleApplication1
             }
         }
 
-        public string AccountHolder
+        public Customer AccountHolder
         {
             get
             {

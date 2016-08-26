@@ -1,0 +1,5 @@
+c:\users\e0046479\documents\visual studio 2013\Projects\RatinalLibrary\RatinalLibrary\bin\Debug\RatinalLibrary.dll
+c:\users\e0046479\documents\visual studio 2013\Projects\RatinalLibrary\RatinalLibrary\bin\Debug\RatinalLibrary.pdb
+c:\users\e0046479\documents\visual studio 2013\Projects\RatinalLibrary\RatinalLibrary\obj\Debug\RatinalLibrary.csprojResolveAssemblyReference.cache
+c:\users\e0046479\documents\visual studio 2013\Projects\RatinalLibrary\RatinalLibrary\obj\Debug\RatinalLibrary.dll
+c:\users\e0046479\documents\visual studio 2013\Projects\RatinalLibrary\RatinalLibrary\obj\Debug\RatinalLibrary.pdb
