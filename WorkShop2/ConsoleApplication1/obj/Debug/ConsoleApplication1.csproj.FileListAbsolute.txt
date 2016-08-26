@@ -1,0 +1,7 @@
+c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplication1\bin\Debug\ISS.RV.LIB.dll
+c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+c:\users\e0046479\documents\visual studio 2013\Projects\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
