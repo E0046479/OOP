@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApplication1.BankTest2</StartupObject>
+    <StartupObject>ConsoleApplication1.DiceApp</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ISS.RV.LIB">
@@ -50,6 +50,7 @@
     <Compile Include="BankAccount.cs" />
     <Compile Include="BankAccount2.cs" />
     <Compile Include="Coin.cs" />
+    <Compile Include="Dice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rational.cs" />
     <Compile Include="Rectangle.cs" />
