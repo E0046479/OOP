@@ -13,11 +13,8 @@ namespace ConsoleApplication1
         double balance;
 
         // Constructor
-        public BankAccount()
+        public BankAccount(): this("000-000-000", "NO NAME", 0)
         {
-            accountNumber = null;
-            accountHolder = null;
-            balance = 0;
         }
 
         public BankAccount(string accountNumber, string accountHolder, double balance)
@@ -58,12 +55,20 @@ namespace ConsoleApplication1
             this.balance = balance;
         }
 
-        public void Withdraw(double amount)
+        public bool Withdraw(double amount)
         {
+            bool isWithdrawSuccess = false;
             if (amount <= balance)
             {
                 balance -= amount;
+                isWithdrawSuccess = true;
             }
+            else
+            {
+                Console.Error.WriteLine("Withdrawal for {0} is unsuccessful",
+                   AccountHolder);
+            }
+            return isWithdrawSuccess;
         }
 
         public void Deposit(double amount)
@@ -71,18 +76,30 @@ namespace ConsoleApplication1
             balance += amount;
         }
 
-        public void TransferTo(double amount, BankAccount another)
+        public bool TransferTo(double amount, BankAccount another)
         {
-            if (balance >= amount)
+            bool isTransferToSuccess = false;
+            if (Withdraw(amount))
             {
-                balance -= amount;
-                another.balance += amount;
+                // balance -= amount;
+                // another.balance += amount;
+                another.Deposit(amount);
+                isTransferToSuccess = true;
             }
+            else
+            {
+                Console.Error.WriteLine("TransferTo for {0} is unsuccessful",
+                    AccountHolder);
+            }
+            return isTransferToSuccess;
         }
 
-        public double Show()
+        public string Show()
         {
-            return balance;
+            string m = String.Format
+                        ("[Account:accountNumber={0},accountHolder={1},balance={2}]",
+                         AccountNumber, AccountHolder, Balance);
+            return (m);
         }
 
         // Properties
@@ -92,10 +109,6 @@ namespace ConsoleApplication1
             get
             {
                 return accountNumber;
-            }
-            set
-            {
-                accountNumber = value;
             }
         }
 
@@ -116,10 +129,6 @@ namespace ConsoleApplication1
             get
             {
                 return balance;
-            }
-            set
-            {
-                balance = value;
             }
         }
     }

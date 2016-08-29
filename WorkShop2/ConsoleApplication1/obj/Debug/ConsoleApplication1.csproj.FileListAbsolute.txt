@@ -18,3 +18,10 @@ D:\ISS\ISS-C#\OOP\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pd
 D:\ISS\ISS-C#\OOP\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
 D:\ISS\ISS-C#\OOP\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 D:\ISS\ISS-C#\OOP\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\e0046479\Source\OOP\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\e0046479\Source\OOP\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\e0046479\Source\OOP\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\e0046479\Source\OOP\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\e0046479\Source\OOP\WorkShop2\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\e0046479\Source\OOP\WorkShop2\ConsoleApplication1\bin\Debug\ISS.RV.LIB.dll
+C:\Users\e0046479\Source\OOP\WorkShop2\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
